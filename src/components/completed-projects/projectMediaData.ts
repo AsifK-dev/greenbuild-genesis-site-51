@@ -9,5 +9,5 @@ export const projectMedia = [
   { url: "/lovable-uploads/641d35a3-8f83-4230-9e0f-a81e761076be.png", type: 'image' as const },
   { url: "https://www.w3schools.com/html/movie.mp4", type: 'video' as const },
   { url: "/lovable-uploads/9308c6fe-f8f8-40ad-9859-bf62667dfa06.png", type: 'image' as const },
-  { url: "/lovable-uploads/f97a11d7-cca4-4999-ba0d-59066cb2c357.png", type: 'image' as const }
+  { url: "/lovable-uploads/c5da3f15-2ae0-4573-b9ab-3bd1b45ee353.png", type: 'image' as const }
 ];

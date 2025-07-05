@@ -1,6 +1,4 @@
 
-import { MessageCircle } from "lucide-react";
-
 export const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
     // Replace with actual WhatsApp number
@@ -13,7 +11,11 @@ export const WhatsAppButton = () => {
         onClick={handleWhatsAppClick}
         className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 xl:w-18 xl:h-18 bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#128C7E] hover:to-[#075E54] rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 border-2 sm:border-2 lg:border-3 xl:border-4 border-white group relative animate-pulse-slow"
       >
-        <MessageCircle className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9 text-white group-hover:rotate-12 transition-transform duration-300" />
+        <img 
+          src="/lovable-uploads/902dd56e-1a22-4b18-b984-3eb3b34b266c.png" 
+          alt="WhatsApp" 
+          className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9 group-hover:rotate-12 transition-transform duration-300"
+        />
         
         {/* Tooltip - hide on very small screens */}
         <div className="absolute bottom-full right-0 mb-2 px-2 sm:px-3 py-1 sm:py-2 bg-gray-800 text-white text-xs sm:text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none hidden sm:block">
