@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Shield, IndianRupee, Play } from "lucide-react";
 import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
@@ -12,18 +11,18 @@ export const CompletedProjects = () => {
   const [sectionRef, isVisible] = useIntersectionObserver();
   const [currentMedia, setCurrentMedia] = useState<{ url: string; type: 'image' | 'video' } | null>(null);
   
-  // Mixed content - images and videos
+  // Updated project media with your uploaded images
   const projectMedia = [
-    { url: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", type: 'image' as const },
+    { url: "/lovable-uploads/30e77ea3-aa20-405f-b85d-08c57c1be77b.png", type: 'image' as const },
     { url: "https://www.w3schools.com/html/mov_bbb.mp4", type: 'video' as const },
-    { url: "https://images.unsplash.com/photo-1524230572899-a752b3835840?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", type: 'image' as const },
+    { url: "/lovable-uploads/24a18a28-c78a-4d07-8d44-7ae98244a1df.png", type: 'image' as const },
     { url: "https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4", type: 'video' as const },
-    { url: "https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", type: 'image' as const },
+    { url: "/lovable-uploads/b5f78dc9-860e-4d1a-bae6-32b7c74f4c4e.png", type: 'image' as const },
     { url: "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4", type: 'video' as const },
-    { url: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", type: 'image' as const },
+    { url: "/lovable-uploads/641d35a3-8f83-4230-9e0f-a81e761076be.png", type: 'image' as const },
     { url: "https://www.w3schools.com/html/movie.mp4", type: 'video' as const },
-    { url: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", type: 'image' as const },
-    { url: "https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", type: 'image' as const }
+    { url: "/lovable-uploads/9308c6fe-f8f8-40ad-9859-bf62667dfa06.png", type: 'image' as const },
+    { url: "/lovable-uploads/f97a11d7-cca4-4999-ba0d-59066cb2c357.png", type: 'image' as const }
   ];
 
   const handleCardClick = (mediaItem: { url: string; type: 'image' | 'video' }, index: number) => {
