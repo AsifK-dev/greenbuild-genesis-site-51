@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 import { useState } from "react";
@@ -18,15 +17,15 @@ export const HowItWorks = () => {
 
   const stepImages = [
     {
-      src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?q=80&w=600&auto=format&fit=crop",
+      src: "/lovable-uploads/c7fd2fd3-7330-4cae-a27e-9cc5657b1103.png",
       alt: "Person consulting on laptop - Raise a Request"
     },
     {
-      src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=600&auto=format&fit=crop",
+      src: "/lovable-uploads/d8a5bc3d-437b-48b8-b336-ca7818d67e8d.png",
       alt: "Professional meeting with expert - Meet our Expert"
     },
     {
-      src: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600&auto=format&fit=crop",
+      src: "/lovable-uploads/27c52f00-e267-4d09-889a-3c043433457f.png",
       alt: "Handshake agreement - Book with us"
     },
     {
@@ -34,7 +33,7 @@ export const HowItWorks = () => {
       alt: "Architectural plans and blueprints - Receive Plans"
     },
     {
-      src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=600&auto=format&fit=crop",
+      src: "/lovable-uploads/392e0853-592b-4b67-8f22-e5501651f61f.png",
       alt: "Construction progress tracking - Track & Transact"
     },
     {
